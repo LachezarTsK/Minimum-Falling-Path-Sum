@@ -27,7 +27,7 @@ public:
                 }
             }
 
-            minPathSum = currentPathSum;
+            minPathSum = move(currentPathSum);
         }
 
         //C++20: *std::ranges::min_element(minPathSum);
